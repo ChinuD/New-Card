@@ -15,9 +15,10 @@ body{
     min-height: 100vh;
     background: #171717;
 }
-.imgBx .h1{
+.p{
     color: aqua;
     margin: 20px;
+    background-color: white;
 }
 .wrapper{
     /* border: 1px solid white; */
@@ -38,7 +39,13 @@ body{
 .title {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     /* border: 1px solid white; */
+}
+
+#Presidenttext{
+    margin-top: -20px;
+    color: white;
 }
 
 .wrapper .card_Container{
