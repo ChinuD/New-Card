@@ -27,6 +27,9 @@ body{
 .wrapper h1{
     padding-top: 20px;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 28px ;
+    font-size: 40px;
 }
 
 .title {
@@ -42,7 +45,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 .core-team{
@@ -51,8 +54,7 @@ body{
     position: relative;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* margin: 40px 0; */
-    margin: auto;
+    margin: 30px 0;
 }
 .technical-team{
     /* border: 1px solid white; */
