@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monstro';
+    font-family: 'Audiowide';
     font-weight: 100;
 }
 
@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #171717;
+    background: black;
     
 }
 
@@ -23,6 +23,9 @@ body{
     text-align: center;
     line-height: 6px;
     gap: none;
+}
+.vp h2{
+    font-size: 12px;
 }
 .p{
     color: aqua;
@@ -72,10 +75,8 @@ body{
 }
 .card:hover{
     transform: scale(1.1);
-    background: linear-gradient(to right, red, purple);
-    
-
 }
+
 
 .core-team{
     /* border: 1px solid white; */
@@ -337,6 +338,10 @@ body{
 }
 
 @media screen and (max-width:1500px) {
+    .designation{
+        margin-top: -4px;
+        margin-bottom: 30px;
+    }
     .core-team{
         grid-template-columns: repeat(3,1fr);
         width: fit-content;
