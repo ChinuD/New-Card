@@ -27,11 +27,6 @@ body{
 .vp h2{
     font-size: 12px;
 }
-.p{
-    color: aqua;
-    margin: 20px;
-    background-color: white;
-}
 .wrapper{
     /* border: 1px solid white; */
     display: flex;
