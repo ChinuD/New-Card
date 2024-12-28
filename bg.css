@@ -1,0 +1,59 @@
+.star-container {
+    background-color:var(--secondary);
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .star-container h1{
+    color: var(--primary);
+    font-family: var(--navfont);
+    font-size: clamp(8vw,10vw,15vw);
+    text-wrap: wrap;
+  }
+  
+ /* Style for individual stars */
+.star{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%; /* Makes stars circular */
+    animation: moveStar 10s infinite;
+    opacity: 0.8; /* Slight transparency for stars */
+  }
+  
+  /* Keyframes for random star movement */
+  @keyframes moveStar {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(-70vh, 30vh);
+    }
+    50% {
+      transform: translate(-30vh, -50vh);
+    }
+    75% {
+      transform: translate(-60vh, 20vh);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 0.9;
+    }
+    50% {
+      opacity: 0.2;
+    }
+  }
+  .star {
+    animation: moveStar 10s infinite, twinkle 2s infinite;
+  }
